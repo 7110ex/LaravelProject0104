@@ -12,11 +12,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        Paginator::useBootstrap();    //追記
-
-
-        // Paginator::useBootstrapFive();    公式ドキュメント
-        //または Paginator::useBootstrapFour();    公式ドキュメント
+        Paginator::useBootstrap();
     }
 
     /**
